@@ -1,0 +1,16 @@
+{
+    "HomePage":{
+        "searchBox":"#twotabsearchtextbox",
+        "searchButton":"(//input[@type='submit'])[1]",
+        "categoryDropdown":"#searchDropdownBox",
+        "accountandLists":"//span[contains(text(),'Account & Lists')]",
+        "yourAccount":"//span[text()='Your Account']"
+        
+    },
+    "searchResultsPage":{
+        "searchResult":"(//div/h2/span)[3]",
+        "productclick":"(//span[text()='M.R.P: '])[1]"
+
+    }
+
+}
