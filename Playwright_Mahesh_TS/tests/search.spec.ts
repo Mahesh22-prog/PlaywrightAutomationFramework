@@ -26,7 +26,7 @@ test.describe('Search tests', () => {
 
         const results = await searchPage.getSearchResults();
 
-        console.log('Search Results:', results); //
+        console.log('Searchdghgdhgdg Results:', results); //
 
         expect(results.toLowerCase()).toContain(testData.productName.toLowerCase());
     });
