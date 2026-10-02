@@ -58,6 +58,16 @@ test.describe('Search tests', () => {
         await searchPage.productclick(testData.productName);
       //  await page.pause();
     }   )
+
+     test("Search product and click on second product", async () => {
+
+        const homePage = new HomePage(page);
+        const searchPage = new SearchPage(page);
+
+        await homePage.searchProduct(testData.productName);
+        await searchPage.productclick(testData.productName);
+      //  await page.pause();
+    }   )
 });
 
 
